@@ -42,6 +42,9 @@
   color: #bbbec3;
   text-decoration: none;
 }
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerTop ul li a i {
+  font-size: 19px;
+}
 .mainRow .bodyLeft .leftSideBar .leftSideBarInnerBotttom {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
