@@ -1,0 +1,244 @@
+.mainRow{
+    padding-bottom: 50px;
+.bodyLeft {
+
+
+
+    .headerLogin {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+   
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            li {
+                margin-left: 10px;
+                margin-right: 10px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+              
+            }
+           
+        }
+    }
+
+    .leftSideBar {
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin-left: 25px;
+
+        .leftSideBarInnerTop {
+            ul {
+                list-style: none;
+                padding-left: 0px;
+                li{
+                    a{
+                        color: #bbbec3;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+
+        .leftSideBarInnerBotttom {
+            writing-mode: vertical-rl;
+            rotate: 180deg;
+
+            label {
+                font-size: 15px;
+                a{
+                    color: #8400c5;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .leftMiddleBody {
+
+        background-image: url("./Images/Ellipse3.png");
+        background-color: black;
+        border-radius: 15px 0px 0px 15px;
+
+        .leftMiddleMenuInner {
+            padding: 50px 0px 0px 90px;
+            color: white;
+
+            h1 {
+                margin-bottom: 20px;
+            }
+
+            h5 {
+                margin-bottom: 20px;
+            }
+
+            .leftMiddleMenuCrousel {
+                display: flex
+            }
+
+            .owl-carousel {
+                margin-bottom: 40px;
+
+                .leftMiddleMenuCrousel {
+                    ul {
+                        list-style-type: none;
+                      
+
+                        li{
+                            font-size: 14px;
+                        }
+                        &:last-child{
+                            margin-left: 40px;
+                        }
+                    }
+                    ul li::before {
+                        content: "\2218";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                        color: #7b06c6; /* Change the color */
+                
+                        display: inline-block; /* Needed to add space between the bullet and the text */
+                        width: 1em; /* Also needed for space (tweak if needed) */
+                        margin-left: -1em; /* Also needed for space (tweak if needed) */
+                        font-size: 30px;
+                      }
+                }
+
+                .owl-dots {
+                    display: flex;
+
+                    .active {
+                        span {
+                            width: 20px;
+                        }
+                    }
+
+                    .owl-dot {
+                        span {
+                            border: 1px solid #D6D6D6;
+                            background-color: rgba(255, 255, 255, 0);
+                        }
+                    }
+
+                }
+            }
+
+            .leftMiddleMenuImage {
+                img {
+                    width: 100%
+                }
+            }
+        }
+    }
+}
+
+;
+
+.bodyRight {
+   
+
+    .secondHeader {
+        padding-top: 20px;
+        padding-bottom: 5px;
+ 
+    }
+
+    .rightBodyForm {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .rightBodyFormWrapper{
+            margin-top: 170px;
+            width: 70%;
+        .formHeadings{
+            p{
+                font-size: 16px;
+            }
+            margin-bottom: 30px;
+        }
+        .rightBodyFormInner{
+      
+            form{
+                .formName{
+                    margin-bottom: 15px;
+                    input{
+                        padding: 7px 10px 7px 10px;
+                        border: 1px solid #e5e5e5;
+                        width: 100%;
+                    }
+                }
+                .formPassword{
+                    margin-bottom: 15px;
+                    input{
+                        padding: 7px 10px 7px 10px;
+                        border: 1px solid #e5e5e5;
+                        width: 100%;
+                    }
+                }
+            .formThirdDiv{
+                margin-bottom: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .FormForgetPassword{
+                    a{
+                        color:#8400c5 ;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .formButton1{
+                margin-bottom: 15px;
+                button{
+                    width: 100%;
+                    background-color: #8400c5;
+                    border: none;
+                    color: white;
+                }
+            }
+            .formButton2{
+                margin-bottom: 15px;
+                button{
+                    width: 100%;
+                    border: none;
+                    background-color: white;
+                    color: black;
+                    img{
+                        width: 7%;
+                    }
+                }
+            }
+            .formNoAccount{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    font-size: 14px;
+                    a{
+                        color: #8400c5;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        }
+    }
+    }
+}
+}

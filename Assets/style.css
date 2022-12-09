@@ -1,0 +1,186 @@
+@charset "UTF-8";
+.mainRow {
+  padding-bottom: 50px;
+}
+.mainRow .bodyLeft .headerLogin {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.mainRow .bodyLeft .headerLogin ul {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mainRow .bodyLeft .headerLogin ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mainRow .bodyLeft .headerLogin ul li a {
+  text-decoration: none;
+  color: black;
+}
+.mainRow .bodyLeft .headerLogin ul li a i {
+  font-size: 20px;
+}
+.mainRow .bodyLeft .leftSideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 25px;
+}
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerTop ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerTop ul li a {
+  color: #bbbec3;
+  text-decoration: none;
+}
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerBotttom {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  rotate: 180deg;
+}
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerBotttom label {
+  font-size: 15px;
+}
+.mainRow .bodyLeft .leftSideBar .leftSideBarInnerBotttom label a {
+  color: #8400c5;
+  text-decoration: none;
+}
+.mainRow .bodyLeft .leftMiddleBody {
+  background-image: url("./Images/Ellipse3.png");
+  background-color: black;
+  border-radius: 15px 0px 0px 15px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner {
+  padding: 50px 0px 0px 90px;
+  color: white;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner h1 {
+  margin-bottom: 20px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner h5 {
+  margin-bottom: 20px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .leftMiddleMenuCrousel {
+  display: flex;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel {
+  margin-bottom: 40px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .leftMiddleMenuCrousel ul {
+  list-style-type: none;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .leftMiddleMenuCrousel ul li {
+  font-size: 14px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .leftMiddleMenuCrousel ul:last-child {
+  margin-left: 40px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .leftMiddleMenuCrousel ul li::before {
+  content: "∘"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #7b06c6; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 30px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .owl-dots {
+  display: flex;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .owl-dots .active span {
+  width: 20px;
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .owl-carousel .owl-dots .owl-dot span {
+  border: 1px solid #D6D6D6;
+  background-color: rgba(255, 255, 255, 0);
+}
+.mainRow .bodyLeft .leftMiddleBody .leftMiddleMenuInner .leftMiddleMenuImage img {
+  width: 100%;
+}
+.mainRow .bodyRight .secondHeader {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.mainRow .bodyRight .rightBodyForm {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper {
+  margin-top: 170px;
+  width: 70%;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .formHeadings {
+  margin-bottom: 30px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .formHeadings p {
+  font-size: 16px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formName {
+  margin-bottom: 15px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formName input {
+  padding: 7px 10px 7px 10px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formPassword {
+  margin-bottom: 15px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formPassword input {
+  padding: 7px 10px 7px 10px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formThirdDiv {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formThirdDiv .FormForgetPassword a {
+  color: #8400c5;
+  text-decoration: none;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formButton1 {
+  margin-bottom: 15px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formButton1 button {
+  width: 100%;
+  background-color: #8400c5;
+  border: none;
+  color: white;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formButton2 {
+  margin-bottom: 15px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formButton2 button {
+  width: 100%;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formButton2 button img {
+  width: 7%;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formNoAccount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formNoAccount p {
+  font-size: 14px;
+}
+.mainRow .bodyRight .rightBodyForm .rightBodyFormWrapper .rightBodyFormInner form .formNoAccount p a {
+  color: #8400c5;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
